@@ -1,0 +1,8 @@
+[2025-07-14 12:40:45 UTC] iverilog '-Wall' '-g2012' design.sv testbench.sv  && unbuffer vvp a.out  
+Time	WE	RE	Addr	Din	Dout
+10	1	0	2	4	x
+20	1	0	5	7	x
+30	0	1	2	7	4
+40	0	1	5	7	7
+testbench.sv:35: $finish called at 40 (1s)
+Done
